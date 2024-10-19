@@ -11,8 +11,8 @@ public class GreetingResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String gethello() {
-        return "Hello GET";
+    public String getHello() {
+        return "Hello GET 2.0";
     }
 
     @POST
